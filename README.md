@@ -25,4 +25,3 @@ Bağlı Liste (bonus) | ft_lstnew, ft_lstadd_front, ft_lstadd_back, ft_lstdelone
 
 
 [ft_isalpha] : https://github.com/rumeysaispay/Libft/blob/main/ft_isalpha.c
-[
