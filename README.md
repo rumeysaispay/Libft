@@ -22,3 +22,21 @@ Yazdırma | [`ft_putchar_fd`](https://github.com/rumeysaispay/Libft/blob/main/ft
 Yardımcı Fonksiyonlar | [`ft_itoa`](https://github.com/rumeysaispay/Libft/blob/main/ft_itoa.c)
 Bağlı Liste (bonus) | ft_lstnew, ft_lstadd_front, ft_lstadd_back, ft_lstdelone, ft_lstclear, ft_lstiter, ft_lstmap, ft_lstsize, ft_lstlast
 
+⚙️ Yapı Dosyaları
+📄 Makefile
+Bu dosya, projedeki tüm .c dosyalarının nasıl derleneceğini ve .a uzantılı statik bir kütüphane (libft.a) haline getirileceğini tanımlar.
+make komutu ile çalıştırıldığında otomatik olarak tüm gerekli dosyalar derlenir.
+
+Kullanımı:
+
+bash
+Kopyala
+Düzenle
+make        # Libft kütüphanesini derler
+make clean  # Derleme sırasında oluşan .o dosyalarını siler
+make fclean # .o dosyaları ve libft.a dosyasını siler
+make re     # Yeniden derleme yapar (clean + make)
+📄 libft.h
+Bu dosya, projedeki tüm fonksiyon prototiplerini, gerekli kütüphane tanımlarını ve bağlı liste yapıları gibi struct tanımlarını içerir.
+Tüm .c dosyaları bu dosyayı #include "libft.h" ile kullanır.
+
