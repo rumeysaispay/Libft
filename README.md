@@ -16,7 +16,8 @@ Kategori | Fonksiyonlar
 ---------|--------------
 Karakter Kontrolü | ['ft_isalpha'] (https://github.com/rumeysaispay/Libft/blob/main/ft_isalpha.c), ft_isdigit, ft_isalnum, ft_isascii, ft_isprint
 Dönüştürme        | ft_toupper, ft_tolower, ft_atoi
-String İşlemleri | ft_strlen, ft_strchr, ft_strrchr, ft_strncmp, ft_strlcpy, ft_strlcat, ft_strdup, ft_strnstr, ft_substr, ft_strjoin, ft_strtrim, ft_split
+String İşlemleri | [`ft_strlen`](https://github.com/rumeysaispay/Libft/blob/main/ft_strlen.c)
+, ft_strchr, ft_strrchr, ft_strncmp, ft_strlcpy, ft_strlcat, ft_strdup, ft_strnstr, ft_substr, ft_strjoin, ft_strtrim, ft_split
 Bellek İşlemleri | ft_memset, ft_bzero, ft_memcpy, ft_memmove, ft_memchr, ft_memcmp, ft_calloc
 Yazdırma | ft_putchar_fd, ft_putstr_fd, ft_putendl_fd, ft_putnbr_fd
 Yardımcı Fonksiyonlar | ft_itoa
