@@ -28,7 +28,7 @@ Bu dosya, projedeki tüm .c dosyalarının nasıl derleneceğini ve .a uzantıl�
 make komutu ile çalıştırıldığında otomatik olarak tüm gerekli dosyalar derlenir.
 
 Kullanımı:
-
+	```ruby
 bash
 Kopyala
 Düzenle
@@ -36,6 +36,7 @@ make        # Libft kütüphanesini derler
 make clean  # Derleme sırasında oluşan .o dosyalarını siler
 make fclean # .o dosyaları ve libft.a dosyasını siler
 make re     # Yeniden derleme yapar (clean + make)
+	```
 ## 📄 libft.h
 Bu dosya, projedeki tüm fonksiyon prototiplerini, gerekli kütüphane tanımlarını ve bağlı liste yapıları gibi struct tanımlarını içerir.
 Tüm .c dosyaları bu dosyayı #include "libft.h" ile kullanır.
