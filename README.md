@@ -50,7 +50,9 @@ C projelerinde sıkça kullanılır çünkü:
 -Derlemeyi kolaylaştırır.
 
 -Gereksiz tekrarları engeller.
+
 -Projeyi otomatik olarak inşa eder (build).
+
 Örneğin Libft projesinde, tüm .c dosyalarını .o (object) dosyalarına çevirir ve ardından bunları libft.a adlı statik kütüphane haline getirir.
 
 Kullanımı:
@@ -65,7 +67,10 @@ libft.h, fonksiyon bildirimlerini (prototiplerini) ve bazı yapıları (struct) 
 
 ### 🧠 Ne İşe Yarar?
 Fonksiyonları diğer dosyalarda kullanmanı sağlar.
+
 Tek bir yerde tüm prototipleri toplar.
+
 #include "libft.h" ile projene entegre olur.
+
 struct ve typedef gibi özel veri türleri de buraya yazılır.
 
