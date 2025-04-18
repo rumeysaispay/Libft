@@ -22,6 +22,25 @@ Yazdırma | [`ft_putchar_fd`](https://github.com/rumeysaispay/Libft/blob/main/ft
 Yardımcı Fonksiyonlar | [`ft_itoa`](https://github.com/rumeysaispay/Libft/blob/main/ft_itoa.c)
 Bağlı Liste (bonus) | ft_lstnew, ft_lstadd_front, ft_lstadd_back, ft_lstdelone, ft_lstclear, ft_lstiter, ft_lstmap, ft_lstsize, ft_lstlast
 
+## ⚙️ Projeyi Çalıştırma
+
+Projeyi derlemek için terminalde aşağıdaki adımları izleyebilirsiniz:
+
+```bash
+cd Libft
+make
+```
+
+Başarılı bir şekilde derlendikten sonra libft.a adlı bir kütüphane dosyası oluşacaktır. Bu dosyayı kendi C projelerinizde linkleyerek kullanabilirsiniz:
+```
+cc main.c libft.a
+./a.out
+```
+❗️ Alternatif olarak libft.h başlık dosyasını da include etmeyi unutmayın:
+``` c
+#include "libft.h"
+```
+
 # ⚙️ Yapı Dosyaları
 ## 📄 Makefile
 Bu dosya, projedeki tüm .c dosyalarının nasıl derleneceğini ve .a uzantılı statik bir kütüphane (libft.a) haline getirileceğini tanımlar.
