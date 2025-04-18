@@ -28,8 +28,7 @@ Bu dosya, projedeki tüm .c dosyalarının nasıl derleneceğini ve .a uzantıl�
 make komutu ile çalıştırıldığında otomatik olarak tüm gerekli dosyalar derlenir.
 
 Kullanımı:
-```ruby
-bash
+```bash
 make        # Libft kütüphanesini derler
 make clean  # Derleme sırasında oluşan .o dosyalarını siler
 make fclean # .o dosyaları ve libft.a dosyasını siler
