@@ -43,8 +43,14 @@ cc main.c libft.a
 
 # ⚙️ Yapı Dosyaları
 ## 📄 Makefile
-Bu dosya, projedeki tüm .c dosyalarının nasıl derleneceğini ve .a uzantılı statik bir kütüphane (libft.a) haline getirileceğini tanımlar.
-make komutu ile çalıştırıldığında otomatik olarak tüm gerekli dosyalar derlenir.
+Makefile, terminalde make komutunu çalıştırdığında hangi dosyaların, hangi sırayla, hangi komutlarla derleneceğini belirleyen bir dosyadır.
+
+C projelerinde sıkça kullanılır çünkü:
+
+-Derlemeyi kolaylaştırır
+-Gereksiz tekrarları engeller
+-Projeyi otomatik olarak inşa eder (build)
+Örneğin Libft projesinde, tüm .c dosyalarını .o (object) dosyalarına çevirir ve ardından bunları libft.a adlı statik kütüphane haline getirir.
 
 Kullanımı:
 ``` bash
@@ -54,6 +60,11 @@ make fclean # .o dosyaları ve libft.a dosyasını siler
 make re     # Yeniden derleme yapar (clean + make)
 ```
 ## 📄 libft.h
-Bu dosya, projedeki tüm fonksiyon prototiplerini, gerekli kütüphane tanımlarını ve bağlı liste yapıları gibi struct tanımlarını içerir.
-Tüm .c dosyaları bu dosyayı #include "libft.h" ile kullanır.
+libft.h, fonksiyon bildirimlerini (prototiplerini) ve bazı yapıları (struct) içeren bir başlık (header) dosyasıdır. Diğer .c dosyalarında yazdığın fonksiyonların kullanılabilmesi için bu fonksiyonlar burada tanımlanır.
+
+### 🧠 Ne İşe Yarar?
+Fonksiyonları diğer dosyalarda kullanmanı sağlar.
+Tek bir yerde tüm prototipleri toplar.
+#include "libft.h" ile projene entegre olur.
+struct ve typedef gibi özel veri türleri de buraya yazılır.
 
