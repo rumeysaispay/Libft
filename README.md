@@ -47,9 +47,10 @@ Makefile, terminalde make komutunu çalıştırdığında hangi dosyaların, han
 
 C projelerinde sıkça kullanılır çünkü:
 
--Derlemeyi kolaylaştırır
--Gereksiz tekrarları engeller
--Projeyi otomatik olarak inşa eder (build)
+-Derlemeyi kolaylaştırır.
+
+-Gereksiz tekrarları engeller.
+-Projeyi otomatik olarak inşa eder (build).
 Örneğin Libft projesinde, tüm .c dosyalarını .o (object) dosyalarına çevirir ve ardından bunları libft.a adlı statik kütüphane haline getirir.
 
 Kullanımı:
